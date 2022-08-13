@@ -68,3 +68,25 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+## Steps for setting CI/CD with Github Actions and AWS S3
+
+Create a IAM user with role `S3:FullAccess` and save the access key id, secret in github repository settings.
+
+Create S3 bucket and enable all public access and ACL.
+Add a bucket policy.
+
+```
+{
+	"Version": "2012-10-17",
+	"Statement": [
+		{
+			"Sid": "PublicReadGetObject",
+			"Effect": "Allow",
+			"Principal": "*",
+			"Action": "s3:GetObject",
+			"Resource": "arn:aws:s3:::portfolio.tarun.com/*"
+		}
+	]
+}
+```
