@@ -4,7 +4,7 @@ import { about } from '../../portfolio'
 import './About.css'
 
 const About = () => {
-  const { name, role, description, resume, social } = about
+  const { name, role, description, social } = about
 
   return (
     <div className="about center">
@@ -25,6 +25,8 @@ const About = () => {
                 href={social.github}
                 aria-label="github"
                 className="link link--icon"
+                target="_blank"
+                rel="noreferrer"
               >
                 <GitHubIcon />
               </a>
@@ -35,6 +37,8 @@ const About = () => {
                 href={social.linkedin}
                 aria-label="linkedin"
                 className="link link--icon"
+                target="_blank"
+                rel="noreferrer"
               >
                 <LinkedInIcon />
               </a>

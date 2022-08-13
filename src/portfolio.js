@@ -11,28 +11,25 @@ const about = {
 
 const projects = [
   {
-    name: 'Project 1',
+    name: 'Assessment Backend',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'This project provides GraphQL apis for an assessment project built using NodeJS with authentication and RBAC(Role Based Access).',
+    stack: ['Node', 'GraphQL', 'MongoDB'],
+    sourceCode: 'https://github.com/tarunbhartiya7/code-assessment-poc',
   },
   {
-    name: 'Project 2',
+    name: 'Node-Postgres',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'This project provides REST apis for CRUD operations built using NodeJS with PostgreSQL database and jsonwebtoken for authentication.',
+    stack: ['Node', 'Postgres'],
+    sourceCode: 'https://github.com/tarunbhartiya7/node-postgres',
   },
   {
-    name: 'Project 3',
+    name: 'Portfolio',
     description:
-      'Amet asperiores et impedit aliquam consectetur? Voluptates sed a nulla ipsa officia et esse aliquam',
-    stack: ['SASS', 'TypeScript', 'React'],
-    sourceCode: 'https://github.com',
-    livePreview: 'https://github.com',
+      'This is a portfolio built using React and Material UI. This uses a CI/CD pipeline using Github actions to deploy latest changes to AWS S3.',
+    stack: ['React', 'Material UI'],
+    sourceCode: 'https://github.com/tarunbhartiya7/portfolio',
   },
 ]
 
