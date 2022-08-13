@@ -4,6 +4,8 @@ A simple portfolio built using React and Material UI. This uses a CI/CD pipeline
 
 ## Preview
 
+<img width="489" alt="Screenshot 2022-08-13 at 9 07 15 PM" src="https://user-images.githubusercontent.com/20270023/184501088-518b27aa-aa02-4f19-9bae-e7977e51517e.png">
+
 ![Portfolio](https://user-images.githubusercontent.com/20270023/184499369-1616e2ba-f89d-4d01-bc64-04f3397452da.gif)
 
 [See Live](https://d249pdcbz94ezu.cloudfront.net/)
@@ -29,3 +31,7 @@ Add a bucket policy.
 	]
 }
 ```
+
+Enable S3 static hoisting and add `index.html` as base url
+
+When creating cloudfront distribution make sure to add default root object as `index.html` otherwise you might get 403 error.
