@@ -30,7 +30,7 @@ Add a bucket policy.
 			"Effect": "Allow",
 			"Principal": "*",
 			"Action": "s3:GetObject",
-			"Resource": "arn:aws:s3:::portfolio.tarun.com/*"
+			"Resource": "arn:aws:s3:::bucket-name/*"
 		}
 	]
 }
