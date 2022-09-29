@@ -31,6 +31,12 @@ const projects = [
     stack: ['React', 'Material UI'],
     sourceCode: 'https://github.com/tarunbhartiya7/portfolio',
   },
+  {
+    name: 'NextJS with Headless CMS',
+    description: 'A POC for NextJS with headless CMS(Contentful)',
+    stack: ['NextJS', 'Contentful'],
+    sourceCode: 'https://github.com/tarunbhartiya7/nextjs-contentful-cms',
+  },
 ]
 
 const skills = [
@@ -49,6 +55,7 @@ const skills = [
   'Git',
   'CI/CD',
   'Jest',
+  'CMS',
 ]
 
 const contact = {
