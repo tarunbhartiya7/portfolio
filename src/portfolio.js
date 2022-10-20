@@ -1,8 +1,8 @@
 const about = {
   name: 'Tarun Bhartiya',
-  role: 'Back-End Heavy Fullstack in NodeJS/React',
+  role: 'Fullstack in NodeJS/React',
   description:
-    'Tarun is a Senior Backend Engineer. He has straightforward communication and advanced English; moreover, and is a sympathetic down-to-earth person. Furthermore, he is familiar with working with best developing practices to enhance product development (testing, code review, clean code) and has good exposure to cloud environments.',
+    'Tarun is a Senior Fullstack Engineer. He has straightforward communication and advanced English; moreover, and is a sympathetic down-to-earth person. Furthermore, he is familiar with working with best developing practices to enhance product development (testing, code review, clean code) and has good exposure to cloud environments.',
   social: {
     linkedin: 'https://www.linkedin.com/in/tarun-bhartiya-38959999/',
     github: 'https://github.com/tarunbhartiya7',
