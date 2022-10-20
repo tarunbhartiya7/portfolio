@@ -6,10 +6,6 @@ A simple portfolio built using React and Material UI. This uses a CI/CD pipeline
 
 ![Portfolio](https://user-images.githubusercontent.com/20270023/184501247-3c99458b-afd5-4bed-8b99-c928c0f3bfe0.png)
 
-## Preview
-
-![Portfolio](https://user-images.githubusercontent.com/20270023/184499369-1616e2ba-f89d-4d01-bc64-04f3397452da.gif)
-
 ## Demo
 
 [See Live](https://d249pdcbz94ezu.cloudfront.net/)
