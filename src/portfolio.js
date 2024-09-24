@@ -11,6 +11,12 @@ const about = {
 
 const projects = [
   {
+    name: 'Github Battle',
+    description: 'A POC for Classic React using Class components and React Router',
+    stack: ['ReactJS', 'React-Router'],
+    sourceCode: 'https://github.com/tarunbhartiya7/react-class-poc',
+  },
+  {
     name: 'Assessment Backend',
     description:
       'This project provides GraphQL apis for an assessment project built using NodeJS with authentication and RBAC(Role Based Access).',
@@ -36,7 +42,7 @@ const projects = [
     description: 'A POC for NextJS with headless CMS(Contentful)',
     stack: ['NextJS', 'Contentful'],
     sourceCode: 'https://github.com/tarunbhartiya7/nextjs-contentful-cms',
-  },
+  }
 ]
 
 const skills = [
